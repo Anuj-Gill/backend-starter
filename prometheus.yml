@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s # How frequently to scrape targets
+
+scrape_configs:
+  - job_name: 'backend-starter-app'
+    static_configs:
+      - targets: ['backend-starter:3000']
