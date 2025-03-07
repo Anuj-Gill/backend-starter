@@ -70,7 +70,7 @@ npm install
 
 ### 3. Set up environment variables
 
-```bash
+
 cp .env.example .env
 # Edit the .env file with your configuration
 ```
